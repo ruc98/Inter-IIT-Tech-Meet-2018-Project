@@ -3,7 +3,7 @@
 Recognition of standard army hand gestures.
 Soldiers communicate with each other through gestures. But sometimes those gestures are not visible due to obstructions or poor lighting. For that purpose an instrument is required to record the gesture and send it to the fellow soldiers. The two options for gesture recognition are through Computer Vision and through some sensors attached to the hands.The first option is not viable in this case as proper lighting is required for recognition through Computer Vision. Hence the second option of using sensors for recognition has been used. We present a system which recognises the gestures shown below:
 
-![Gestures](https://github.com/ruc98/Gesture-Recognition/blob/master/Images/gestures.jpg)
+![Gestures](https://github.com/ruc98/Inter-IIT-Tech-Meet-2018-Project/blob/master/Images/gestures.jpg)
 
 ## Construction
 The given gestures include motions of fingers, wrist and elbow.Hence to detect any changes in them we have used one flex sensors which detects the amount by which it has been bent at each of these joints. To take into account for the dynamic gestures an Inertial Measurement Unit(IMU-MPU-9250) was used.The parameters used from the IMU are Acceleration,Gyroscopic acceleration and angles in all three axes.An Arduino Mega was used to receive the signals from the sensors and send it to the processor.
